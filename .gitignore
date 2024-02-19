@@ -1,0 +1,4 @@
+go.sum
+tmp
+output
+.DS_Store

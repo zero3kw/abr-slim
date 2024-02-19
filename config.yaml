@@ -1,0 +1,24 @@
+baseURL: "https://catalog.registries.digital.go.jp/rsc/address/"
+
+datasets:
+  - id: "pref"
+    file: "mt_pref_all.csv.zip"
+  - id: "city"
+    file: "mt_city_all.csv.zip"
+  - id: "machiaza" # 町字
+    file: "mt_town_all.csv.zip"
+  - id: "blk" # 住居表示-街区
+    file: "mt_rsdtdsp_blk_all.csv.zip"
+  - id: "blk-pos" # 住居表示－住居マスター位置参照拡張（全国）
+    file: "mt_rsdtdsp_blk_pos_all.csv.zip"
+  - id: "rsdt" # 住居表示-住居
+    file: "mt_rsdtdsp_rsdt_all.csv.zip"
+  - id: "rsdt-pos" # 住居表示－住居マスター位置参照拡張（全国）
+    file: "mt_rsdtdsp_rsdt_pos_all.csv.zip"
+  - id: "machiaza-pos" # 町字マスター位置参照拡張（全国）
+    file: "mt_town_pos_all.csv.zip"
+  #- id: "parcel" # 地番
+  #  file: "mt_parcel_all.csv.zip"
+  #  processType: "normalizeParcel"
+workingDir: "tmp"
+outputDir: "output"

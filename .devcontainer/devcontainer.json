@@ -1,0 +1,16 @@
+{
+  "dockerFile": "Dockerfile",
+  "mounts": [
+    //"source=${localEnv:HOME}/abr-slim/,target=/workspaces/abr-slim/tmp,type=bind",
+    "source=${localEnv:HOME}/Work/devcontainer-volume/abr-slim/,target=/workspaces/abr-slim/tmp,type=bind"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go",
+        "janisdd.vscode-edit-csv",
+        "mechatroner.rainbow-csv"
+      ]
+    }
+  }
+}
