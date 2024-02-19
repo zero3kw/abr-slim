@@ -9,8 +9,8 @@ import (
 func NormalizePosBlk(srcFilePath, destFilePath string) error {
 	columnConfigs := []ColumnConfig{
 		{"全国地方公共団体コード", true, nil},
-		{"町字ID", true, nil},
-		{"街区ID", true, nil},
+		{"町字id", true, nil},
+		{"街区id", true, nil},
 		{"住居表示フラグ", true, nil},
 		{"住居表示方式コード", false, nil},
 		{"代表点_経度", true, util.RoundToSixDigits},

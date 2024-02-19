@@ -35,7 +35,7 @@ func NormalizeMachiaza(srcFilePath, destFilePath string) error {
 		{"住居表示フラグ", true, nil},
 		{"住居表示方式コード", true, nil},
 		{"大字・町名_通称フラグ", true, nil},
-		{"小字名_通称コード", true, nil},
+		{"小字名_通称フラグ", true, nil},
 		{"大字・町名_電子国土基本図外字", false, nil},
 		{"小字名_電子国土基本図外字", false, nil},
 		{"状態フラグ", true, nil},
